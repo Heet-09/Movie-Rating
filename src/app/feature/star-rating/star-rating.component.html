@@ -1,0 +1,10 @@
+<p>star-rating works!</p>
+<ng-template #t let-fill="fill">
+  <i class="bi-heart-fill">
+    @if (fill > 0) {
+    <i class="bi-heart-fill filled" [style.width.%]="fill"></i>
+    }
+  </i>
+</ng-template>
+
+
